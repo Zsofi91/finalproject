@@ -7,6 +7,8 @@ int main(int argc, char *argv[])
         printf("Please enter a name of file!\n");
         return 0;
     }
+
+
     compile_files(argv, argc);
     return 0;
 }
